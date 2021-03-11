@@ -1,3 +1,85 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://bio.walther.world"
+title = "Bio of Sven Walther"
+author = "Sven Walther"
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+theme = "Blonde"
+enableRobotsTXT = true
+
+
+[params]
+# The number of articles to be displayed on a single page.
+paginator_pages = "20"
+
+# Enable this if you want the archive list to be in a drop-down format.
+archive_dropdown = "false"
+
+# Number of tags to be displayed.
+tagsLimit = 20
+
+  [params.post]
+    # See the Tailwind CSS documentation to set it up.
+    # Recommended settings are h-32 to h-48.
+    # https://tailwindcss.com/docs/height
+    thumbnail_height = "h-48"
+
+    # https://tailwindcss.com/docs/width
+    thumbnail_width = "w-auto"
+
+  [params.widgets]
+    archives = true
+    categories = true
+    tags = true
+    recentposts = false
+    search = false
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "impressum"
+    name = "Impressum"
+    url = "/impressum/"
+    weight = 2
+
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+archive = "archives"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
+
+[build]
+  writeStats = true
