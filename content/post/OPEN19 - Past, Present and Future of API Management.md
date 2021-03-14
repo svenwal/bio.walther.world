@@ -1,7 +1,9 @@
 ---
 author: "Sven Walther"
 title: "OPEN'19 - Past, Present and Future of API Management"
-image: "images/open19.png"
+image: "images/antwerp.jpg"
+image_credits: "https://www.pexels.com/de-de/foto/stadt-landschaft-strasse-dunkel-6902376/"
+logo: "images/open19.png"
 draft: false
 date: 2019-05-11
 description: "Traditional API Management is facing massive disruption due to emerging new technologies and development processes."
