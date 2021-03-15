@@ -4,7 +4,7 @@ author = "Sven Walther"
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
-theme = "Blonde"
+theme = "BioSvenWal"
 enableRobotsTXT = true
 
 
@@ -25,7 +25,7 @@ tagsLimit = 20
     thumbnail_height = "h-48"
 
     # https://tailwindcss.com/docs/width
-    thumbnail_width = "w-auto"
+    thumbnail_width = "400px"
 
   [params.widgets]
     archives = true
