@@ -1,7 +1,6 @@
 {
   "htmlElements": {
     "tags": [
-      "!doctype",
       "a",
       "aside",
       "blockquote",
@@ -162,7 +161,6 @@
       "text-sm",
       "text-white",
       "text-xl",
-      "thumb",
       "title",
       "tracking-tight",
       "transform",

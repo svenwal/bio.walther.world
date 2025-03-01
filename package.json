@@ -1,0 +1,26 @@
+{
+  "name": "bio.walther.world",
+  "version": "1.0.0",
+  "description": "This is the source of <https://bio.walther.world/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svenwal/bio.walther.world.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svenwal/bio.walther.world/issues"
+  },
+  "homepage": "https://github.com/svenwal/bio.walther.world#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.3"
+  }
+}
