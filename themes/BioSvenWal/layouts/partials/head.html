@@ -1,5 +1,6 @@
 <head>
-    {{- partial "analytics" . -}}
+    {{/* Remove or comment out this line if not using analytics */}}
+    {{/* - partial "analytics" . - */}}
     {{- if .Site.Params.Analytics.Yandexmetrica.Enabled -}}
     {{ partial "metrica.html" . }}
     {{- end -}}

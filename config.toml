@@ -82,3 +82,5 @@ archive = "archives"
 
 [build]
   writeStats = true
+
+googleAnalytics = "G-XXXXXXXXXX"  # Your Google Analytics ID
